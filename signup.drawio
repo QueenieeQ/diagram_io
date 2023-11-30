@@ -1,9 +1,104 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T09:39:02.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" version="22.1.5" etag="4t29Bo4prjEbCEdOEdbx" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-30T10:31:44.652Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="wHPdaaRHDeXEsROvrCQA" version="22.1.5" type="github">
   <diagram name="Page-1" id="KXttpU9CFeDiYu4vmngs">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1gGmedYD_RCK3_45rb0M-1" value="User" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="290" width="310" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#FFFFFF;" vertex="1" parent="1gGmedYD_RCK3_45rb0M-1">
+          <mxGeometry x="80" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-4" value="Chọn chức năng đăng nhập" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1gGmedYD_RCK3_45rb0M-1">
+          <mxGeometry x="30" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-6" value="Chọn tài khoản đăng nhập" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1gGmedYD_RCK3_45rb0M-1">
+          <mxGeometry x="35" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1gGmedYD_RCK3_45rb0M-1" source="1gGmedYD_RCK3_45rb0M-18" target="1gGmedYD_RCK3_45rb0M-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-18" value="Hiển thị trang chủ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1gGmedYD_RCK3_45rb0M-1">
+          <mxGeometry x="95" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-19" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#FFFFFF;" vertex="1" parent="1gGmedYD_RCK3_45rb0M-1">
+          <mxGeometry x="140" y="740" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-21" value="Kết thúc" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1gGmedYD_RCK3_45rb0M-1">
+          <mxGeometry x="120" y="770" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-2" value="Hệ thống" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="290" width="440" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-5" value="Hiện thị form chọn tài khoản google dùng để đăng nhập" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1gGmedYD_RCK3_45rb0M-2">
+          <mxGeometry x="130" y="120" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1gGmedYD_RCK3_45rb0M-2" source="1gGmedYD_RCK3_45rb0M-7" target="1gGmedYD_RCK3_45rb0M-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-12" value="Đã tồn tại" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1gGmedYD_RCK3_45rb0M-10">
+          <mxGeometry x="-0.0435" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1gGmedYD_RCK3_45rb0M-2" source="1gGmedYD_RCK3_45rb0M-7" target="1gGmedYD_RCK3_45rb0M-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-13" value="Chưa tồn tại" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1gGmedYD_RCK3_45rb0M-11">
+          <mxGeometry x="0.1636" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-7" value="Kiểm tra thông tin đăng nhập" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1gGmedYD_RCK3_45rb0M-2">
+          <mxGeometry x="110" y="320" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-8" value="Tải thông tin tài khoản đã có&amp;nbsp; và cho phép đăng nhập" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1gGmedYD_RCK3_45rb0M-2">
+          <mxGeometry x="50" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-9" value="Tạo tài khoản mới và cho phép đăng nhập" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1gGmedYD_RCK3_45rb0M-2">
+          <mxGeometry x="280" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-16" value="Thông báo đăng ký thành công và thêm vào cơ sở dữ liệu" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1gGmedYD_RCK3_45rb0M-2">
+          <mxGeometry x="220" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1gGmedYD_RCK3_45rb0M-2" source="1gGmedYD_RCK3_45rb0M-9" target="1gGmedYD_RCK3_45rb0M-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="470" as="sourcePoint" />
+            <mxPoint x="50" y="420" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="1gGmedYD_RCK3_45rb0M-16" target="1gGmedYD_RCK3_45rb0M-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="475" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1gGmedYD_RCK3_45rb0M-8" target="1gGmedYD_RCK3_45rb0M-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1gGmedYD_RCK3_45rb0M-6" target="1gGmedYD_RCK3_45rb0M-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1gGmedYD_RCK3_45rb0M-4" target="1gGmedYD_RCK3_45rb0M-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="430" />
+              <mxPoint x="630" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1gGmedYD_RCK3_45rb0M-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="1gGmedYD_RCK3_45rb0M-5" target="1gGmedYD_RCK3_45rb0M-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
